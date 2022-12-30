@@ -525,6 +525,21 @@ body {
     color: #fff;
 }
 
+.footer-icon a {
+    color: #fff;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.footer-icon {
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-icon a:hover {
+    color: #0921f8;
+}
+
 
 
 
