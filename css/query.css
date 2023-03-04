@@ -6,17 +6,22 @@
         font-size: 18px;
     }
 
-    .hed-col2 ul {
+    #burger {
+        display: block;
+    }
+
+    .nav li {
         display: none;
     }
 
-    .hed-col2 li {
-        padding: 10px 0;
+    .nav a {
+        font-size: 12px;
     }
 
-    .burger {
-        display: inline-block;
+    .line .nav li {
+        display: block;
     }
+
     /*Home section */
     .home-row {
         display: flex;
@@ -28,11 +33,11 @@
     }
 
     .home-col1 h1 {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .home-col1 h3 {
-        font-size: 13px;
+        font-size: 18px;
     }
 
     .home-col2 {
@@ -44,8 +49,8 @@
 
     .home-col2 button {
         width: 100px;
-        height: 30px;
-        font-size: 10px;
+        height: 50px;
+        font-size: 13px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -56,7 +61,11 @@
     }
 
     .home-col3 a {
-        font-size: 25px;
+        font-size: 35px;
+    }
+
+    .mail {
+        font-size: 30px;
     }
     /*About Section*/
     .about-con span {
@@ -140,6 +149,7 @@
 
     .con-col {
         width: 100%;
+        gap: 20px;
     }
 
     /*Footer Section*/
@@ -163,8 +173,16 @@
         padding: 10px 10px;
     }
 
-    .burger {
+    #burger {
         display: none;
+    }
+
+    .nav a {
+        font-size: 18px;
+    }
+
+    .nav li {
+        display: block;
     }
     /*Home section */
     .home-row {
@@ -191,9 +209,9 @@
     }
 
     .home-col2 button {
-        width: 120px;
-        height: 30px;
-        font-size: 13px;
+        width: 200px;
+        height: 100px;
+        font-size: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -205,6 +223,10 @@
 
     .home-col3 a {
         font-size: 50px;
+    }
+
+    .mail {
+        font-size: 45px;
     }
 
     /*About Section*/
@@ -273,12 +295,11 @@
 
     .port-row {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-wrap: wrap;
     }
 
     .port-col {
-        width: 70%;
+        width: 100%;
     }
 
     /*Contact Section*/
@@ -289,7 +310,10 @@
     }
 
     .con-col {
-        width: 48%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
     }
 
     /*Footer Section*/
@@ -304,10 +328,6 @@
 @media (min-width: 1020px) {
     /*Header Section*/
 
-    .hed-col1 h1 {
-        font-size: 30px;
-    }
-
     .hed-col2 ul {
       display: flex;
       flex-wrap: wrap;
@@ -317,7 +337,7 @@
         padding: 10px 20px;
     }
 
-    .burger {
+    #burger {
         display: none;
     }
     /*Home section */
@@ -345,9 +365,9 @@
     }
 
     .home-col2 button {
-        width: 150px;
-        height: 50px;
-        font-size: 18px;
+        width: 200px;
+        height: 100px;
+        font-size: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -359,6 +379,10 @@
 
     .home-col3 a {
         font-size: 70px;
+    }
+
+    .mail {
+        font-size: 60px;
     }
 
     /*About Section*/
@@ -441,7 +465,10 @@
     }
 
     .con-col {
-        width: 25%;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1;
     }
 
     /*Footer Section*/
