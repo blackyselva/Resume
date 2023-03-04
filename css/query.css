@@ -8,6 +8,7 @@
 
     #burger {
         display: block;
+        color: #fff;
     }
 
     .nav li {
@@ -34,10 +35,12 @@
 
     .home-col1 h1 {
         font-size: 20px;
+        text-align: center;
     }
 
     .home-col1 h3 {
         font-size: 18px;
+        text-align: center;
     }
 
     .home-col2 {
@@ -58,14 +61,16 @@
     
     .home-col3 {
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .home-col3 a {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .mail {
-        font-size: 30px;
+        font-size: 20px;
     }
     /*About Section*/
     .about-con span {
@@ -202,10 +207,8 @@
     }
 
     .home-col2 {
-        width: 40%;
+        width: 100%;
         padding: 30px 0;
-        display: flex;
-        justify-content: center;
     }
 
     .home-col2 button {
@@ -218,15 +221,17 @@
     }
     
     .home-col3 {
-        width: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: end;
     }
 
     .home-col3 a {
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .mail {
-        font-size: 45px;
+        font-size: 23px;
     }
 
     /*About Section*/
@@ -347,21 +352,24 @@
 
     .home-col1 {
         width: 60%;
+        display: flex;
     }
 
     .home-col1 h1 {
         font-size: 26px;
+        text-align: left;
     }
 
     .home-col1 h3 {
         font-size: 22px;
+        text-align: left;
     }
 
     .home-col2 {
-        width: 40%;
+        width: 100%;
         padding: 30px 0;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .home-col2 button {
@@ -374,15 +382,17 @@
     }
     
     .home-col3 {
-        width: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: end;
     }
 
     .home-col3 a {
-        font-size: 70px;
+        font-size: 40px;
     }
 
     .mail {
-        font-size: 60px;
+        font-size: 30px;
     }
 
     /*About Section*/

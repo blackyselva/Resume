@@ -102,26 +102,29 @@ body {
 .home-col1 {
     width: 80%;
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .home-col1 h1 {
     font-size: 50px;
     font-weight: 700;
     color: #fff;
+    width: 100%;
+    text-align: left;
 }
 
 .home-col1 h3 {
     font-size: 40px;
     font-weight: 500;
     color: #fff;
-    padding: 0 50px;
+    width: 100%;
+    text-align: left;
 }
 
 .home-col2 {
-    width: 20%;
-    display: flex;
-    justify-content: flex-end;
+    width: 100%;
 }
 
 .home-col2 button {
@@ -149,15 +152,13 @@ body {
 }
 
 .home-col3 {
-    width: 40%;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: end;
     gap: 30px;
 }
 
 .home-col3 a {
-    font-size: 50px;
     color: #fff;
 }
 
@@ -690,7 +691,8 @@ circle:nth-child(2) {
     text-align: center;
     box-shadow: 0 0 10px 0;
     padding: 20px;
-    background-color: #0077ff91;
+    background-color: #d3d7dd;
+    border-radius: 10px;
 }
 
 .con-bar p {
@@ -710,7 +712,7 @@ circle:nth-child(2) {
 /*Footer Section*/
 
 .footer-sec {
-    background-color: #0077ff91;
+    background-color: #d3d7dd;
     padding: 15px 0;
 }
 
@@ -719,5 +721,5 @@ circle:nth-child(2) {
 }
 
 .footer-sec span {
-    color: #fff;
+    color: #007bff;
 }
